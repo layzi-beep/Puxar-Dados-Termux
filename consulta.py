@@ -116,7 +116,7 @@ def main():
 [{G}66{C}] Ajuda.
 [{G}00{C}] {R}Sair.{C}
 ''')
-tool=input(f'{C}[{G}+{C}] Selecione a forma de operação:{B} ')
+tool=input(f'{G}[8{C}+{C}] Selecione a forma de operação:{G} ')
   if tool == "1":
      clear()
      import ip
@@ -148,7 +148,7 @@ tool=input(f'{C}[{G}+{C}] Selecione a forma de operação:{B} ')
   elif tool == "8":
      clear()
      import telefone
-     telefone.main()
+     telefone.main(+55 14 99680-7319)
   elif tool == "9":
      import bin
      bin.main()
